@@ -1,11 +1,12 @@
+import entities.ReservationSystem;
+import entities.UserInteface;
+
 import java.util.Scanner;
 
 public class Main {
     public static void main(String[] args) {
-        Scanner sc = new Scanner(System.in);
-
-
-        sc.close();
+        UserInteface obj = new UserInteface();
+        obj.start();
 
     }
 }
